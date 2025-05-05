@@ -1,0 +1,17 @@
+Test Scenario: Validate NIK (KTP) for Program Enrollment
+
+Objective:
+To verify that the system correctly handles and validates Indonesian National Identity Numbers (NIK) according to the e-KTP rules during program registration or data entry.
+
+Validation Rules:
+1. NIK must consist of 16 digits.
+2. The composition of the NIK is as follows:
+3. First 2 digits: Province code
+4. Next 2 digits: City/Regency code
+5. Next 2 digits: District code
+6. Next 6 digits: Date of birth in the format ddmmyy
+7. For females, add 40 to the day portion (e.g., 13 becomes 53)
+8. Last 4 digits: Sequential number, starting from 0001
+
+
+Google Sheet : https://docs.google.com/spreadsheets/d/1GQnisztSX5cFAAgPylBQuPLVhP7fCCRlHBK4Hj2DIpA/edit?usp=sharing
